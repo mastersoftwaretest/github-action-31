@@ -4,7 +4,7 @@ provider "aws" {
 
 terraform {
   backend "s3" {
-    bucket = "scto-ce11-tfstate"
+    bucket = "sctp-ce11-tfstate"
     key    = "jiaqing.tfstate"
     region = "us-east-1"
   }
